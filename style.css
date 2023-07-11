@@ -1,0 +1,321 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #FCEEF1;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.primary-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: white;
+    font-weight: 700;
+}
+
+.header-img img {
+    width: 435px;
+    height: 617px;
+}
+
+.header-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+
+
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+/* header-style-End */
+
+
+/* start Featured Flowers style*/
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 10px;
+}
+
+.description {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.flower-trees-section {
+    margin-bottom: 150px;
+}
+
+.flower-contant {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+
+
+}
+
+.tree-title {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.tree-1,
+.tree-2,
+.tree-3 {
+    width: 320px;
+    height: 350px;
+    border-radius: 200px 200px 0 0;
+    padding: 20px;
+}
+
+.tree-1 {
+    background-color: #D9EFF1;
+}
+
+.tree-2 {
+    background-color: #F2DEE7;
+}
+
+.tree-3 {
+    background-color: #E3EBDB;
+}
+
+.tree-img {
+    margin-top: 70px;
+    width: 160px;
+    height: 300px;
+
+}
+
+/*end Featured Flowers style*/
+
+
+/* start-click,support-style */
+
+.click-container {
+    width: 80%;
+    margin: auto;
+    background-color: #F4F4F4;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.click>img {
+    width: 50px;
+}
+
+.click-title {
+    color: rgba(39, 39, 39, 0.80);
+}
+
+/* end-click,support-style */
+
+/* start-sign up-style */
+.sign-up-section {
+    width: 100%;
+    height: 350px;
+    background-color: #FEF6F8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10%
+}
+
+.sign-up-description {
+    margin: 20px;
+    line-height: 30px;
+}
+
+.sale-img {
+    width: 218px;
+    height: 220px;
+}
+
+/* end- sign up-style*/
+
+
+
+/* instragram style*/
+.Instagram-container {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.instagram-flower>img {
+    width: 265px;
+    height: 260px;
+}
+
+/* End-instragram style */
+
+/* start- get deal-style */
+.latest-deal-container {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    background-color: brown;
+    background-image: url('/FlowerAsset/Rectangle9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.deal-title {
+    color: #272727;
+    font-weight: 800;
+}
+
+.deal-description {
+    margin: 20px 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.input-btn {
+    width: 500px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* end- get deal-style */
+
+/*start-owner-section-style */
+
+.owner-title {
+    font-size: 50px;
+
+}
+
+.owner img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    margin-left: -175px;
+}
+
+.owner-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+small {
+    font-size: 15px;
+}
+
+.owner {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    align-items: center;
+    gap: 10%;
+}
+
+.owner-contant {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.left-side {
+    width: 30%;
+    background-color: #F2B09A;
+    height: 500px;
+}
+
+/* end-owner-section */
+
+/* spanish style*/
+.color {
+    color: #E55473;
+}
+
+/* footer-style-start */
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-destription {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.flower-shop {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* End-footer-style */
