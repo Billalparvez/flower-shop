@@ -80,7 +80,7 @@ header {
     margin-bottom: 150px;
 }
 
-.flower-contant {
+.flower-content {
     width: 80%;
     margin: auto;
     display: flex;
@@ -201,7 +201,7 @@ header {
     width: 80%;
     margin: auto;
     height: 300px;
-    background-image: url('/FlowerAsset/Rectangle9.png');
+    background-image: url('./FlowerAsset/Rectangle9.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -270,7 +270,7 @@ small {
     gap: 10%;
 }
 
-.owner-contant {
+.owner-content {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
