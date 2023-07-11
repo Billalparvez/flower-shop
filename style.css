@@ -161,14 +161,17 @@ header {
 
 }
 
-.owner img {
+.owner-img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     box-shadow: 0 0 10px;
     margin-left: -180px;
 }
-
+.developer-img{
+    width: 200px;
+    height:500px ;
+}
 .owner-btn {
     padding: 10px 20px;
     background-color: black;
@@ -183,10 +186,10 @@ small {
 
 .owner {
     display: flex;
+    justify-content: space-between;
     width: 70%;
     height: 500px;
     align-items: center;
-    gap: 10%;
 }
 
 .owner-content {
